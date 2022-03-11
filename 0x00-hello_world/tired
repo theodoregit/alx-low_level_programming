@@ -1,0 +1,7 @@
+#!/bin/bash
+MESSAGE=${1?Errior: no message given}
+FILENAME=${2?Error: no filename given}
+chmod u+x $FILENAME
+git add $FILENAME
+git commit -m $MESSAGE
+git push --set-upstream origin master
