@@ -4,4 +4,4 @@ FILENAME=${2?Error: no filename given}
 chmod u+x $FILENAME
 git add $FILENAME
 git commit -m $MESSAGE
-git push --set-upstream origin master
+git push --set-upstream origin main
