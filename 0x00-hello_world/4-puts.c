@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * Main Entry point
- * printing a string
+ * main - print a string of characters
+ * Return: 0 and exit
  */
 int main(void)
 {
