@@ -1,7 +1,7 @@
 #include<stdlib.h>
 #include<time.h>
 #include<stdio.h>
-/*
+/**
  * main - Main Entry point
  * Description: parity checker
  * i don't know why this description is becoming
