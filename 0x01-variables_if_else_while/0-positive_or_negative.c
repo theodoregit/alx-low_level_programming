@@ -4,6 +4,8 @@
 /*
  * main - Main Entry point
  * Description: parity checker
+ * i don't know why this description is becoming
+ * so long.
  * Return: exit with 0
  */
 int main(void)
