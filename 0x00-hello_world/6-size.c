@@ -12,11 +12,11 @@ int main(void)
 	long long int ddd = 232323;
 	float eee = 4.3;
 
-	printf("Size of a char: %c\n", sizeof(aaa));
-	printf("Size of an int: %d", sizeof(bbb));
-	printf("Size of a long int: %ld\n", sizeof(ccc));
-	printf("Size of a long long int: %lld\n", sizeof(ddd));
-	printf("Size of a float: %f\n", sizeof(eee));
+	printf("Size of a char: %d byte(s)\n", sizeof(aaa));
+	printf("Size of an int: %d byte(s)\n", sizeof(bbb));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(ccc));
+	printf("Size of a long long int: %lld byte(s)\n", sizeof(ddd));
+	printf("Size of a float: %f byte(s)\n", sizeof(eee));
 
 	return (0);
 }
