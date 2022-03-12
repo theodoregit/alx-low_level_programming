@@ -3,6 +3,7 @@
 #include<stdio.h>
 /*
  * main - Main Entry point
+ * Description: parity checker
  * Return: exit with 0
  */
 int main(void)
