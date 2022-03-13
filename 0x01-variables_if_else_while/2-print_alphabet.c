@@ -4,7 +4,7 @@
  * Description:
  * Return: 0 and exit
  */
-int main (void)
+int main(void)
 {
 	char alpha;
 
