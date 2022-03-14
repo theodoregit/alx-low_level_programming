@@ -8,12 +8,14 @@ int main(void)
 {
 	int alpha;
 
-	for (alpha = '0'; alpha <= '8'; alpha++)
+	for (alpha = '0'; alpha <= '9'; alpha++)
 	{
-		putchar(alpha);
+		putchar((alpha % 10) + '0');
+		if(alpha == 9)
+			continue;
 		putchar(',');
 		putchar(' ');
 	}
-	putchar('9');
+	putchar('\n');
 	return (0);
 }
