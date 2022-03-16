@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_sign - 
- * @n:
- * Return: 
+ * print_sign - print parity
+ * @n: any int
+ * Return: 1, 0, -1
  */
 int print_sign(int n)
 {
