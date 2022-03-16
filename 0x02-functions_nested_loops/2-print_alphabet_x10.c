@@ -6,7 +6,7 @@
 void print_alphabet_x10(void)
 {
 	int c = 0;
-	car letter;
+	char letter;
 
 	while(c++ <= 98)
 	{
