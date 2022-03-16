@@ -10,7 +10,7 @@ void print_alphabet_x10(void)
 
 	while(c++ <= 98)
 	{
-		for (letter = 1; letter <= 'z', letter++)
+		for (letter = 1; letter <= 'z'; letter++)
 		{
 			_putchar(letter);
 		}
