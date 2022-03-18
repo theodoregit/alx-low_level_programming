@@ -2,6 +2,7 @@
 
 /**
  * main - tests psitive_or_negative function
+ * Description: checks parity
  * Return: 0
  */
 int main(void)
