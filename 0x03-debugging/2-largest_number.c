@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * largest_number - compares three integers and return the largest
+ * Description: some desc
  * @a: int 1
  * @b: int 2
  * @c: int 3
