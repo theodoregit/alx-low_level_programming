@@ -4,7 +4,7 @@
  * @c: given letter\
  * Return: 1 and 0 for success and failure respectively.
  */
-int _isupper(char c)
+int _isupper(int c)
 {
 	if (c > 'A' && c < 'Z')
 		return (1);
