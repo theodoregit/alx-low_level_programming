@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_array - prints size of array of integers
- * @n: array of integers
+ * @a: array of integers
  * @n: number of elements
  */
 void print_array(int *a, int n)
