@@ -3,7 +3,7 @@
  * puts2 - prints one char out of two of a string
  * @str: given string
  */
-void puts(char *str)
+void puts2(char *str)
 {
 	int index = 0, len = 0;
 
