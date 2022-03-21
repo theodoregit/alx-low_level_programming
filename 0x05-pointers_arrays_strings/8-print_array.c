@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_aray - prints size of array of integers
+ * print_array - prints size of array of integers
  * @n: array of integers
  * @n: number of elements
  */
@@ -11,7 +11,7 @@ void print_array(int *a, int n)
 
 	for (index = 0; index < n; index++)
 	{
-		printf("%d", a[index]);			
+		printf("%d", a[index]);
 		if (index == n - 1)
 			continue;
 
