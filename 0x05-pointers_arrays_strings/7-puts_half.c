@@ -3,7 +3,7 @@
  * puts_half - prints the second half of a string
  * @str: string
  */
-void puta_half(char *str)
+void puts_half(char *str)
 {
 	int index = 0, len = 0, n;
 
