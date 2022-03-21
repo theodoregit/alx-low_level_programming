@@ -3,9 +3,9 @@
  * _puts - prints a string
  * @str: string
  */
-void _puts(*str)
+void _puts(char *str)
 {
-	while (char *str)
+	while (*str)
 		_putchar(*str++);
 
 	_putchar('\n');
