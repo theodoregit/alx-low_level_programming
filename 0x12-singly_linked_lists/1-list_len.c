@@ -4,7 +4,7 @@
  *           a linked list_t list   
  *@h: The linked list_t list.
  *
- * Return: The number of elements in h.
+ *Return: The number of elements in h.
  */
 size_t list_len(const list_t *h)
 {
