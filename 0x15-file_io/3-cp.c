@@ -79,7 +79,7 @@ int main(int argc, char *argv[])
 			free(buffer);
 			exit(98);
 		}
-	
+
 		w = write(to, buffer, r);
 		if (to == -1 || w == -1)
 		{
@@ -88,7 +88,7 @@ int main(int argc, char *argv[])
 			free(buffer);
 			exit(99);
 		}
-	
+
 		r = read(from, buffer, 1024);
 		to = open(argv[2], O_WRONLY | O_APPEND);
 	
